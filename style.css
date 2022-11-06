@@ -85,7 +85,7 @@ nav ul li a:hover {
     padding: 0;
     background-color: #fff;
     overflow: hidden;
-    display: ;
+    display:none ;
     transition: .4s ease;
 }
 
