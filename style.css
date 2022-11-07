@@ -147,9 +147,9 @@ header {
 .btn {
     color: #fff;
     background-color: var(--Soft-red);
-    width: 11rem;
+    width: 12rem;
     margin: 1rem 0 4rem;
-    padding: 1rem 1.30rem;
+    padding: 1.2rem 1.30rem;
     font-size: 0.9em;
     font-weight: 600;
     letter-spacing: 3px;
@@ -158,7 +158,7 @@ header {
 
 .new {
     display: flex;
-    padding: 10px 0px;
+    padding: 1rem0px;
     flex-direction: column;
     gap: 40px;
     margin-bottom:3rem;
@@ -175,7 +175,7 @@ header {
 }
 
 .new h3 {
-    margin: 0rem 1rem 1rem;
+    margin: 0rem 1rem ;
     font-size: 1.3em;
     font-weight: 700;
     color: #fff;
@@ -185,12 +185,21 @@ header {
 
  #border::after{ 
     content:'';
-    width:20rem;
-    height:1px;
-    
-    margin: auto;
-   background-color: var(--Grayish-blue);
+   border:1px solid  var(--Grayish-blue);
+    opacity: .3;
+    margin:0 1rem ;
     display: block;
+}
+#bone::after{
+    content:'';
+    border:1px solid  var(--Grayish-blue);
+     opacity: .3;
+     margin:0 1rem ;
+     display: block;
+
+}
+#border{
+margin: -1rem 0;
 }
 .new h3:hover {
     cursor: pointer;
@@ -233,6 +242,7 @@ header {
 
 .tmnc:last-child{
     margin-top:66rem;
+    
 }
 
 .retro{
@@ -259,4 +269,14 @@ header {
   font-size:1rem;
   font-weight:400;
   line-height:1.3rem;
+}
+
+.attribution{
+    font-size: 1.1em;
+    font-weight:500;
+    position: relative;
+    text-align: center;
+    margin-top: 35rem;
+    padding:2rem;
+    
 }
