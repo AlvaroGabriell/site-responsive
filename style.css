@@ -158,7 +158,7 @@ header {
 
 .new {
     display: flex;
-    padding: 1rem0px;
+    padding: 0 0 2rem 0;
     flex-direction: column;
     gap: 40px;
     margin-bottom:3rem;
