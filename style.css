@@ -360,6 +360,7 @@ nav ul li a:hover {
     right: 0;
     z-index: 999;
     display: block !important;
+    transition: .3s ease;
 }
 
 .change {
